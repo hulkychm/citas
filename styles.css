@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8d99ae; /* Un tono suave de rosa */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #2b2d42; /* Rojo brillante para el fondo del nav */
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo::before {
+    content: '\2764'; /* Código del carácter de corazón */
+    font-size: 60px;
+    color: #d90429;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #edf2f4;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid #d90429; /* Borde rojo */
+}
+
+h1 {
+    color: #d90429; /* Rojo brillante */
+}
+
+.cita {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #d90429; /* Borde rojo */
+    border-radius: 8px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #d90429; /* Un tono más claro de rosa */
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+label {
+    display: inline-block;
+}
+
+/* Estilos para los checkboxes */
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #ffffff;
+    border: 2px solid #ff4d4d;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Estilos para los checkboxes cuando están marcados */
+input[type="checkbox"]:checked {
+    background-color: #ff4d4d;
+    border-color: #ff4d4d;
+}
+
+/* Estilos para el contenedor de reglas */
+.rules-container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #edf2f4;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.rules-container h2 {
+    color: #d90429;
+    font-size: 24px;
+    background-color: #edf2f4;
+}
+
+.rules-container p {
+    font-size: 0.8rem;
+    color: #282323;
+}
+
+
+
+
+
+
